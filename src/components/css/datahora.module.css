@@ -1,0 +1,45 @@
+.imgHoraData{
+    background-color: #F2ACC6;
+    border: 2px solid #B500FF;
+    width: 10rem;
+    height: 6rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    position: relative;
+    top: 0.3rem;
+    left: 47rem;
+}
+.imgHoraData input[type="date"]{
+    border-top-left-radius:20rem ;
+    border-top-right-radius:0 ;
+    border-bottom-left-radius: 0;
+    border-bottom-left-radius: 20rem;
+    width: 3rem;
+    padding: 0.58rem;
+    margin-bottom: 0.5rem;
+    background-color: #B500FF5E;
+    border: 2px solid #B500FF;
+    color: white;
+}
+.imgHoraData input[type="time"]{
+    border-top-left-radius: 0;
+    border-top-right-radius:20rem ;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 20rem;
+    width: 3rem;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    background-color: #B500FF5E;
+    border: 2px solid #B500FF;
+    color: white;
+}
+.imgHoraData button{
+    background-color: #B500FF5E;
+    border: 2px solid #B500FF;
+    color: white;
+    border-radius: 20rem;
+    width: 3rem;
+    margin: 0 auto;
+    
+}

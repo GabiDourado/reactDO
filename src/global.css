@@ -1,13 +1,55 @@
+@font-face{
+    font-family: "padrao";
+    src: url("components/css/fonts/IndieFlower-Regular.ttf");
+}
 body{
-    font-family: 'Mukta', sans-serif;
+    font-family: "padrao";
     font-size: 14px;
     background-color: #E6BAF8;
+    text-align: center;
+}
+header{
+    text-align: center;
 }
 li{
     list-style-type: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.caderno{
+    background-image: url("components/css/img/caderno.png");
+    background-size: cover;
+    background-repeat: repeat-y;
+    margin: 0 auto;
+    width: 40%;
+    height: 45rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+
+}
+.voltatexto{
+    width: 20rem;
+    word-break: break-all;
+}
+ul{
+    margin-top: 7rem;
 }
 ul div{
     display: flex;
+}
+.tarefa{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+.tarefa li{
+    padding-left: 1rem;
+}
+ul .tarefa{
+    margin-top: 0.98rem;
+    margin-bottom: 0.88rem;
+    margin-left: 2rem;
 }
 ul div button{
     border-radius: 50%;
@@ -15,8 +57,77 @@ ul div button{
     height: 30px;
 }
 .feito{
-    background-color: green;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 0;
+}
+.feitotexto{
+    text-decoration: line-through;
+    color: grey;
+}
+.fundoexcluir{
+    background-color: black;
+    text-align: center;
+    padding: 0;
+}
+.x{
+    font-size: 1.657rem;
+    padding: 0;
+    color: #F2EAD5; 
+}
+.v{
+    font-size: 1.66rem;
+    padding: 0;
+    color: #0dce2d;
 }
 .naoFeito{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 0;
+}
+body{
+    font-size: 14px;
+}
+span{
+    font-size: 2rem;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+.header img{
+    width: 3rem;
+    height: 3rem;
+}
+.btn-input {
+    background-color: #C2F2F2;
+    border: 2px solid #B500FF;
+    border-radius: 22rem;
+    display: flex;
+    align-items: center;
+    width: 23rem;
+    height: 3rem;
+    margin: 0 auto;
+}
+input[type="text"]{
+    background-color: #C2F2F2;
+    border-radius: 22rem;
+    border: 0;
+    width: 17rem;
+    height: 2.6rem;
+    font-family: "padrao";
+}
+.btn-input button{
+    background-color: #F2ACC6;
+    border: 1px solid #B500FF;
+    color: white;
+    font-family: "padrao";
+    border-radius: 22rem;
+    width: 8rem;
+    z-index: 1;
+    height: 3rem;
 }
